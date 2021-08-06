@@ -1,11 +1,11 @@
 {
-  "name": "shpjs",
-  "version": "4.0.2",
+  "name": "@leslie/shpjs",
+  "version": "1.0.0",
   "description": "A binary shapefile loader, for javascript. Not many caveats",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/calvinmetcalf/shapefile-js.git"
+    "url": "git://github.com/leslie846933/shapefile-js.git"
   },
   "scripts": {
     "test": "mocha ./test/test.js",
@@ -13,7 +13,7 @@
     "build": "browserify . -s shp > ./dist/shp.js",
     "min": "browserify . -s shp | minify > ./dist/shp.min.js"
   },
-  "author": "Calvin Metcalf",
+  "author": "Leslie Chan",
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
