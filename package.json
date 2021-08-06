@@ -1,5 +1,5 @@
 {
-  "name": "@leslie/shpjs",
+  "name": "@leslie8469/shpjs",
   "version": "4.0.2",
   "description": "A binary shapefile loader, for javascript. Not many caveats",
   "main": "lib/index.js",
